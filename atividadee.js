@@ -46,5 +46,7 @@ let tarefas = [];
 tarefas.push("Estudar JavaScript");
 tarefas.push("Fazer exercícios");
 tarefas.push("Ler um livro");
-console.log(tarefas);
-
+console.log("Lista de Tarefas:");
+tarefas.forEach((tarefa, index) => {
+    console.log(`${index + 1}. ${tarefa}`);
+});
